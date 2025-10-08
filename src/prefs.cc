@@ -592,4 +592,9 @@ PrefPtr PREF_METALINK_ENABLE_UNIQUE_PROTOCOL =
     makePref("metalink-enable-unique-protocol");
 PrefPtr PREF_METALINK_BASE_URI = makePref("metalink-base-uri");
 
+/**
+ * Custom preferences
+ */
+PrefPtr PREF_PRESERVE_FOLDER_STRUCTURE = makePref("preserve-folder-structure");
+
 } // namespace aria2

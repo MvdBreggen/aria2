@@ -1129,5 +1129,6 @@
     "                              file saved by --bt-save-metadata option. If it is\n" \
     "                              successful, then skip downloading metadata from\n" \
     "                              DHT.")
-
+#define TEXT_PRESERVE_FOLDER_STRUCTURE                             \
+  _(" --preserve-folder-structure[=true|false] Preserves the folder structure while downloading.\n")
 // clang-format on
