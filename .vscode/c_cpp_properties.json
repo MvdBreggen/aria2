@@ -1,0 +1,30 @@
+{
+    "env": {
+        "myIncludePath": [
+            "${workspaceFolder}/src/includes"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "CrossCompile",
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "includePath": [
+                "${myIncludePath}",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "${myDefines}, HAVE_WINSOCK2_H"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "browse": {
+                "path": [
+                    "${myIncludePath}",
+                    "${workspaceFolder}"
+                ]
+            },
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

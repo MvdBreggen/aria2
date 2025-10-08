@@ -77,6 +77,7 @@ FileEntry::FileEntry(std::string path, int64_t length, int64_t offset,
       requested_(true),
       uniqueProtocol_(false)
 {
+  A2_LOG_NOTICE(fmt("Added new url: %s", uris_[0].c_str()));
   A2_LOG_NOTICE(fmt("Added new path: %s", path_.c_str()));
 }
 
